@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería multimedia con las mejores fotos y videos.">
+    <meta name="author" content="Tu Nombre">
+    <meta property="og:title" content="Galería | Descubre con Dan">
+    <meta property="og:description" content="Explora visualmente la belleza de nuestros destinos.">
+    <title>Galería | Descubre con Dan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--color-primario);">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">Descubre con Dan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="informacion.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tabla.html">Itinerarios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5 mt-5">
+        <h1 class="text-center mb-2 text-primary">Galería Multimedia</h1>
+        <p class="text-center text-muted mb-5">Un recorrido visual por los paisajes más impresionantes.</p>
+        
+        <section class="mb-5">
+            <h2 class="h4 mb-4 border-bottom pb-2">Video Destacado</h2>
+            <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g55HrxQNeec?si=zzp6TOB_9WxtCyD2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <h2 class="h4 mb-4 border-bottom pb-2">Nuestras Mejores Fotografías</h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/san-andres.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Playa de San Andrés">
+                        <figcaption class="figure-caption text-center">Atardecer caribeño en San Andrés.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/eje-cafetero.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Valle del Cocora">
+                        <figcaption class="figure-caption text-center">Paisaje del Eje Cafetero.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/cartagena.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Calles de Cartagena">
+                        <figcaption class="figure-caption text-center">Arquitectura colonial en Cartagena.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/tatacoa.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Desierto de la Tatacoa">
+                        <figcaption class="figure-caption text-center">Explorando el Desierto de la Tatacoa.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/amazonas.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Río Amazonas">
+                        <figcaption class="figure-caption text-center">La inmensidad del Amazonas.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <figure class="figure w-100">
+                        <img src="img/santa-marta.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Parque Tayrona">
+                        <figcaption class="figure-caption text-center">Playas del Parque Tayrona.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white py-4 mt-auto" style="background-color: var(--color-oscuro);">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Descubre con Dan. Todos los derechos reservados.</p>
+            <small>Diseñado para la Guía de Laboratorio 4</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

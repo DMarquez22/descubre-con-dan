@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarifas e itinerarios con cobertura nacional en Descubre con Dan.">
+    <meta name="author" content="Tu Nombre">
+    <title>Itinerarios | Descubre con Dan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">Descubre con Dan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="informacion.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="tabla.html">Itinerarios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5 mt-4">
+        <h1 class="mb-3 text-center">Itinerarios y Tarifas Nacionales</h1>
+        <p class="text-center text-muted mb-4">Planes turísticos con salidas disponibles desde cualquier ciudad principal de Colombia.</p>
+
+        <div class="alert alert-info d-flex align-items-center mb-4 shadow-sm" role="alert">
+            <div>
+                <strong>Cobertura Nacional:</strong> 
+                <span class="small">
+                    Ofrecemos salidas desde Bogotá, Medellín, Cali, Barranquilla, Bucaramanga y demás capitales. 
+                    <strong>Temporada Alta:</strong> Mitad de diciembre a enero, Semana Santa y junio-julio. 
+                    <strong>Temporada Baja:</strong> Resto del año.
+                </span>
+            </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-hover table-bordered mb-0 text-center align-middle">
+                <thead>
+                    <tr style="background-color: var(--color-primario); color: #ffffff;">
+                        <th class="py-3">Destino</th>
+                        <th class="py-3">Salidas Disponibles</th>
+                        <th class="py-3">Duración</th>
+                        <th class="py-3 bg-success bg-opacity-75 text-white">Temporada Baja (COP)</th>
+                        <th class="py-3 bg-danger bg-opacity-75 text-white">Temporada Alta (COP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold">San Andrés Islas</td>
+                        <td>Nacional (Cualquier capital)</td>
+                        <td>4 Días / 3 Noches</td>
+                        <td class="text-success fw-bold">$ 2.150.000</td>
+                        <td class="text-danger fw-bold">$ 2.800.000</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Eje Cafetero</td>
+                        <td>Nacional (Aéreo / Terrestre)</td>
+                        <td>3 Días / 2 Noches</td>
+                        <td class="text-success fw-bold">$ 720.000</td>
+                        <td class="text-danger fw-bold">$ 1.050.000</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Cartagena de Indias</td>
+                        <td>Nacional (Cualquier capital)</td>
+                        <td>5 Días / 4 Noches</td>
+                        <td class="text-success fw-bold">$ 1.350.000</td>
+                        <td class="text-danger fw-bold">$ 2.150.000</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Desierto de la Tatacoa</td>
+                        <td>Nacional (Terrestre / Aéreo + Neiva)</td>
+                        <td>2 Días / 1 Noche</td>
+                        <td class="text-success fw-bold">$ 420.000</td>
+                        <td class="text-danger fw-bold">$ 620.000</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Amazonas (Leticia)</td>
+                        <td>Nacional (Conexión vía BOG)</td>
+                        <td>6 Días / 5 Noches</td>
+                        <td class="text-success fw-bold">$ 1.950.000</td>
+                        <td class="text-danger fw-bold">$ 2.800.000</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">Santa Marta (Tayrona)</td>
+                        <td>Nacional (Cualquier capital)</td>
+                        <td>4 Días / 3 Noches</td>
+                        <td class="text-success fw-bold">$ 1.280.000</td>
+                        <td class="text-danger fw-bold">$ 1.920.000</td>
+                    </tr>
+                </tbody>
+                <tfoot class="table-light">
+                    <tr>
+                        <td colspan="5" class="text-start fst-italic text-muted small">
+                            * Tarifas por persona con salida nacional. Incluyen pasajes (aéreos o terrestres según el plan), hospedaje, desayunos y asistencia médica de viaje.
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    <footer class="text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Descubre con Dan. Todos los derechos reservados.</p>
+            <small>Diseñado para la Guía de Laboratorio 4</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
